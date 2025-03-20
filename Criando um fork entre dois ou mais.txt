@@ -1,0 +1,49 @@
+Criando um fork entre dois ou mais usuários
+
+
+
+Um fork no GitHub é como fazer uma cópia de um repositório de outra pessoa para a sua conta. Isso permite que você faça mudanças sem afetar o projeto original.
+
+
+
+1) Após obter o link do repositório que deseja contribuir, acesse o mesmo e clique em FORK
+
+2) Coloque uma descrição e clique em "Create Fork".
+
+Isso fará com o que o repositório solicitado vá para o seu GitHub.
+
+3) Acesso o repositório solicitado através do menu "Repositories".
+
+4) Crie um pasta em seu computador e faça um clone do seu repositório.
+
+5) git clone github.com/Danielbgarcia2023/Git-Exemplo.git
+
+git clone LINK_DO_SEU_REPO
+
+IMPORTANTE: faça o clone do repositorio com o seu usuário.
+
+6) Crie qualquer arquivo/pasta em seu repositorio e após abra o GitBash com a opção "Open Git Bash here" e use os comandos:
+
+git init
+
+git add .
+
+git commit -m "versão modificada"
+
+7)Use o comando git checkout -b modificado. Esse comando irá criar uma branch e acessar a mesma
+
+😎 Use o comando git remote add origin github.com/Danielbgarcia2023/Git-Exemplo.git
+
+git remote add origin LINK_DO_SEU_REPO
+
+Para adicionar um repositório remoto
+
+9) Agora envie para o repositório com o comando git push origin modificado
+
+10) Agora, no GitHub, iremos enviar a mudança para o repositório "original". Para isso, mude para a branch criada (opção esquerda que está como main/master), após isso, clique em "Sync Fork" e depois em "Update Branch".
+
+11) Agora clique em "Compare and pull request". 
+
+Em descrição escreva algo e depois clique em "Create Pull request".
+
+12) O dono do repositório original poderá aceitar ou não o seu request. Caso aceite, ele deverá clicar em "Merge pull request".
